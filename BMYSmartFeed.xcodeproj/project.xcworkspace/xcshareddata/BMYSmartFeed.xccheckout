@@ -10,14 +10,14 @@
 	<string>BMYSmartFeed</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>44D39785D7FE9BCE25AE54879EA978E1E0155CA6</key>
+		<key>25802AD480B98779B8312DEA52A9FC14E892E29A</key>
 		<string>github.com:zeebox/BMYSmartFeed.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BMYSmartFeed.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>44D39785D7FE9BCE25AE54879EA978E1E0155CA6</key>
+		<key>25802AD480B98779B8312DEA52A9FC14E892E29A</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>44D39785D7FE9BCE25AE54879EA978E1E0155CA6</string>
+	<string>25802AD480B98779B8312DEA52A9FC14E892E29A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>44D39785D7FE9BCE25AE54879EA978E1E0155CA6</string>
+			<string>25802AD480B98779B8312DEA52A9FC14E892E29A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BMYSmartFeed</string>
 		</dict>
