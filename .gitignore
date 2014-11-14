@@ -26,6 +26,10 @@ build/*
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
 profile
 *.moved-aside
 .DS_Store
