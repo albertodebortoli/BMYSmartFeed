@@ -1,15 +1,15 @@
 //
-//  BFStoriesFactory.m
+//  BFStoryFactory.m
 //  BMYSmartFeed
 //
 //  Created by Rui Peres on 14/11/2014.
 //  Copyright (c) 2014 Beamly. All rights reserved.
 //
 
-#import "BFStoriesFactory.h"
+#import "BFStoryFactory.h"
 #import "BMYStoryModel.h"
 
-@implementation BFStoriesFactory
+@implementation BFStoryFactory
 
 + (NSArray *)mockedStories
 {

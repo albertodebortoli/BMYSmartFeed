@@ -1,5 +1,5 @@
 //
-//  BFStoriesFactory.h
+//  BFStoryFactory.h
 //  BMYSmartFeed
 //
 //  Created by Rui Peres on 14/11/2014.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BFStoriesFactory : NSObject
+@interface BFStoryFactory : NSObject
 
 + (NSArray *)mockedStories;
 

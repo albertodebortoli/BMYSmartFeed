@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C76ADD8F1A162069001B0888 /* BFStoriesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C76ADD8E1A162069001B0888 /* BFStoriesFactory.m */; };
+		C76ADD8F1A162069001B0888 /* BFStoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C76ADD8E1A162069001B0888 /* BFStoryFactory.m */; };
 		F01AE0A219EC70E500F724EC /* UIView+BMYExpanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F01AE08419EC70E500F724EC /* UIView+BMYExpanded.m */; };
 		F01AE0A319EC70E500F724EC /* BMYLayoutComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F01AE08819EC70E500F724EC /* BMYLayoutComponent.m */; };
 		F01AE0A419EC70E500F724EC /* BMYStoryLikeAndCommentComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F01AE08B19EC70E500F724EC /* BMYStoryLikeAndCommentComponent.m */; };
@@ -41,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C76ADD8D1A162069001B0888 /* BFStoriesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFStoriesFactory.h; sourceTree = "<group>"; };
-		C76ADD8E1A162069001B0888 /* BFStoriesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFStoriesFactory.m; sourceTree = "<group>"; };
+		C76ADD8D1A162069001B0888 /* BFStoryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFStoryFactory.h; sourceTree = "<group>"; };
+		C76ADD8E1A162069001B0888 /* BFStoryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFStoryFactory.m; sourceTree = "<group>"; };
 		F01AE08319EC70E500F724EC /* UIView+BMYExpanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMYExpanded.h"; sourceTree = "<group>"; };
 		F01AE08419EC70E500F724EC /* UIView+BMYExpanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMYExpanded.m"; sourceTree = "<group>"; };
 		F01AE08719EC70E500F724EC /* BMYLayoutComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMYLayoutComponent.h; sourceTree = "<group>"; };
@@ -102,12 +102,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C76ADD8C1A162054001B0888 /* Stories Factory */ = {
+		C76ADD8C1A162054001B0888 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				C76ADD8D1A162069001B0888 /* BFStoriesFactory.h */,
-				C76ADD8E1A162069001B0888 /* BFStoriesFactory.m */,
+				C76ADD8D1A162069001B0888 /* BFStoryFactory.h */,
+				C76ADD8E1A162069001B0888 /* BFStoryFactory.m */,
 			);
+			name = Factory;
 			path = "Stories Factory";
 			sourceTree = "<group>";
 		};
@@ -235,7 +236,7 @@
 		F0C7163119E6B93500ACA8C1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C76ADD8C1A162054001B0888 /* Stories Factory */,
+				C76ADD8C1A162054001B0888 /* Factory */,
 				F01AE08219EC70E500F724EC /* Categories */,
 				F01AE08519EC70E500F724EC /* Components */,
 				F01AE08E19EC70E500F724EC /* Infrastructure */,
@@ -358,7 +359,7 @@
 				F0FB37331A126B84006E0E7A /* README.md in Sources */,
 				F01AE0AD19EC70E500F724EC /* BMYStoryLikeAndCommentView.m in Sources */,
 				F0FE086419FFD64A0068842C /* BMYFeedComponent.m in Sources */,
-				C76ADD8F1A162069001B0888 /* BFStoriesFactory.m in Sources */,
+				C76ADD8F1A162069001B0888 /* BFStoryFactory.m in Sources */,
 				F0C7160E19E6B8DF00ACA8C1 /* AppDelegate.m in Sources */,
 				F01AE0A519EC70E500F724EC /* BMYStorySentimentComponent.m in Sources */,
 				F0C7160B19E6B8DE00ACA8C1 /* main.m in Sources */,

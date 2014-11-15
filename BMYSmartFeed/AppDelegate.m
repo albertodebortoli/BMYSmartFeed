@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 #import "BMYFeedComponent.h"
 #import "BMYFeedModel.h"
-#import "BFStoriesFactory.h"
+#import "BFStoryFactory.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +23,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    BMYFeedModel *feedModel = [[BMYFeedModel alloc] initWithStories:[BFStoriesFactory mockedStories]];
+    BMYFeedModel *feedModel = [[BMYFeedModel alloc] initWithStories:[BFStoryFactory mockedStories]];
     
     BMYFeedComponent *feedComponent = [[BMYFeedComponent alloc] initWithFeedModel:feedModel];
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:feedComponent];
