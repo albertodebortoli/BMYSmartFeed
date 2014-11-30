@@ -107,7 +107,7 @@
     if (indexOfObject != NSNotFound) {
         BMYLayoutComponent *component = [BMYStoryModelToComponentConverter componentForModel:model];
         self.componentStore[model.identifier] = component;
-        [self.feedModel.stories replaceObjectAtIndex:indexOfObject withObject:model];
+        [self.feedModel replaceObjectAtIndex:indexOfObject withObject:model];
         [self.tableView reloadData];
     }
 }

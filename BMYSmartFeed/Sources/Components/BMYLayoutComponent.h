@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 
 struct BMYLayoutComponentConfiguration {
-    NSUInteger meh;
     CGFloat spacing;
 };
 

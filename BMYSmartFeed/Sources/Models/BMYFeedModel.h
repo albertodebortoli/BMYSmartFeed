@@ -10,8 +10,10 @@
 
 @interface BMYFeedModel : BMYBaseModel
 
-@property (nonatomic, strong) NSMutableArray *stories;
+@property (nonatomic, readonly) NSArray *stories;
 
 - (instancetype)initWithStories:(NSArray *)stories;
+
+- (void)replaceObjectAtIndex:(NSInteger)index withObject:(id)object;
 
 @end
